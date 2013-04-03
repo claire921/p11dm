@@ -12,7 +12,6 @@ public class KNN {
 			source = new DataSource("trainProdSelection.arff");
 			data = source.getDataSet();
 		} catch (Exception e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 		
